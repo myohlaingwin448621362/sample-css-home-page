@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <title>Home work with Tailwind</title>
+  </head>
+  <body class=" font-nun">
+    <header class=" py-4 absolute w-full z-10">
+      <div class="pc:container flex items-center mx-auto">
+        <div class="logo-container w-100 mr-8">
+          <a href="#" class="logo-link">
+            <img src="/build/img/light.svg" alt="" class="logo-img">
+          </a>
+        </div>
+        <ul class="flex w-3/6">
+          <li class="nav-item ">
+            <a href="#" class="nav-link text-menu-color p-4 inline-block hover:text-white pl-0">Overview</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link text-menu-color p-4 inline-block hover:text-white">Front Pages</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link text-menu-color p-4 inline-block hover:text-white">App Pages</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link text-menu-color p-4 inline-block hover:text-white">Support</a>
+          </li>
+        </ul>
+        <ul class="flex ml-auto">
+          <li class="nav-btns border-2 border-solid rounded-md hover:bg-white">
+            <a href="#" class="nav-btn py-2 px-5 text-white  inline-block  hover:text-blue"><i class="fa-solid fa-book mr-2"></i>Components</a>
+          </li>
+          <li class="btn nav-btns ml-5 bg-red rounded-md inline-flex items-center">
+            <a href="#" class="nav-btn py-2 px-5 text-white inline-block "><i class="fa-solid fa-bag-shopping mr-2"></i>Buy Now</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class=" min-h-full pt-40 bg-theme-color pb-[500px] relative">
+        <div class="pc:container  mx-auto">
+          <div class="flex justify-center">
+            <div class="w-4/6">
+              <h1 class="text-h1 leading-initial font-bold text-white text-center mb-7">Imagine what we will accomplish together</h1>
+              <p class=" text-center mb-10 text-normal leading-initial text-white">Powerful analytics tools for your business. See the exact keywords for which your competitors rank in organic search and the amount of traffic driven by each of them.</p>
+              <div class="btn-wrapper flex justify-center">
+                <a href="#" class="btn py-2 px-5 text-white inline-block bg-red mr-5 rounded-lg">Start a 30 days trail</a>
+                <a href="#" class="btn py-2 px-5 text-blue inline-block bg-white rounded-lg demo">Quick Demo</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="pattern"></div>
+      </section>
+      <section class="-mt-[400px] relative z-10 pb-50">
+        <div class="pc:container mx-auto">
+          <div class="flex">
+            <div class="w-full">
+                <img src="img/index-mockup.png" alt="" class="mx-auto">
+            </div>
+          </div>
+        </div>
+        
+      </section>
+      <section class="py-50">
+        <div class="pc:container mx-auto">
+            <div class=" w-4/6 mx-auto text-center">
+              <h1 class="text-h1 mb-4">Meet our intuitive platform</h1>
+              <p class="text-normal">Self-Service Analytics or ad hoc reporting gives users the ability to develop rapid reports, empowering users to analyze their data.</p>
+            </div>
+        </div>
+      </section>
+      <section class="four-icon py-50">
+          <div class="pc:container mx-auto">
+            <div class="flex text-center">
+              <div class="col w-1/4 px-3">
+                <div class="icon inline-flex w-16 h-16 rounded-full items-center justify-center mb-5">
+                  <i class="fa-solid fa-database text-h4 text-theme-color"></i>
+                </div>
+                <h5 class="text-h5 mb-5">Analyze your data</h5>
+                <p class=" text-black">Create reports with an easy to use drag-and drop cards.</p>
+                <a href="#" class="  text-blue mt-7 inline-block">Learn More<i class="fa-solid fa-arrow-right ml-3"></i></a>
+              </div>
+              <div class="col w-1/4 px-3">
+                <div class="icon inline-flex w-16 h-16 rounded-full items-center justify-center mb-5">
+                  <i class="fa-solid fa-shield text-h4 text-theme-color"></i>
+                </div>
+                <h5 class="text-h5 mb-5">Collaborate securely</h5>
+                <p class=" text-black">Create reports with an easy to use drag-and drop cards.</p>
+                <a href="#" class="  text-blue mt-7 inline-block">Learn More<i class="fa-solid fa-arrow-right ml-3"></i></a>
+              </div>
+              <div class="col w-1/4 px-3">
+                <div class="icon inline-flex w-16 h-16 rounded-full items-center justify-center mb-5">
+                  <i class="fa-solid fa-jet-fighter-up text-h4 text-theme-color"></i>
+                </div>
+                <h5 class="text-h5 mb-5">Features released regularly</h5>
+                <p class=" text-black">Create reports with an easy to use drag-and drop cards.</p>
+                <a href="#" class="  text-blue mt-7 inline-block">Learn More<i class="fa-solid fa-arrow-right ml-3"></i></a>
+              </div>
+              <div class="col w-1/4 px-3">
+                <div class="icon inline-flex w-16 h-16 rounded-full items-center justify-center mb-5">
+                  <i class="fa-solid fa-headset text-h4 text-theme-color"></i>
+                </div>
+                <h5 class="text-h5 mb-5">24/7 support</h5>
+                <p class=" text-black">Create reports with an easy to use drag-and drop cards.</p>
+                <a href="#" class="  text-blue mt-7 inline-block">Learn More<i class="fa-solid fa-arrow-right ml-3"></i></a>
+              </div>
+            </div>
+          </div>
+      </section>
+      <section class=" pt-50 pb-150 top-image">
+        <div class="pc:container mx-auto">
+           <div class="img-container">
+              <img src="/build/img/saas-platform.jpg" alt="" class="mx-auto  rounded-xl">
+           </div>
+        </div>
+      </section>
+      <section class=" py-150 bg-theme-color">
+        <div class="pc:container mx-auto">
+            <div class="flex items-center">
+                <div class="col w-5/12">
+                  <h5 class=" text-h5 mb-2 text-menu-color">Customer service</h5>
+                  <h3 class=" text-h3 mb-5 text-white">Discover effortless customer support</h1>
+                  <p class=" text-normal mb-8 text-menu-color">Convert your emails into tickets and keep them all organized in one place. Never leave customers' questions unanswered.</p>
+                  <a href="#" class=" btn inline-block py-2 px-6 bg-red rounded-lg text-white hover:bg-hover">View More <i class=" ml-2 fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="col w-7/12 pl-100">
+                    <div class="inner-row text-center flex">
+                      <div class="col w-1/2 px-3">
+                          <div class="card py-50 px-6 bg-white rounded-xl shadow-sm mb-6">
+                              <i class="fa-solid fa-hand-point-up text-h2 mb-4 text-theme-color"></i>
+                              <h5 class="text-h5 text-blue mb-5">Customer service</h5>
+                              <p class=" text-blue">Create low-effort customer service experiences.</p>
+                          </div>
+                          <div class="card py-50 px-6 bg-white rounded-xl shadow-sm">
+                            <i class="fa-solid fa-comment text-h2 mb-4 text-theme-color"></i>
+                            <h5 class="text-h5 text-blue mb-5">Predictive service</h5>
+                            <p class=" text-blue">Create low-effort customer service experiences.</p>
+                        </div>
+                      </div>
+                      <div class="col w-1/2 px-3">
+                          <div class="card py-50 px-6 bg-white rounded-xl shadow-sm mb-6 mt-8">
+                              <i class="fa-solid fa-file-invoice-dollar text-h2 mb-4 text-theme-color"></i>
+                              <h5 class="text-h5 text-blue mb-5">Service to sales</h5>
+                              <p class=" text-blue">Create low-effort customer service experiences.</p>
+                          </div>
+                          <div class="card py-50 px-6 bg-white rounded-xl shadow-sm">
+                            <i class="fa-solid fa-chart-simple text-h2 mb-4 text-theme-color"></i>
+                            <h5 class="text-h5 text-blue mb-5">Make it simple</h5>
+                            <p class=" text-blue">Create low-effort customer service experiences.</p>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- The tools you get with Impact -->
+      <section class=" pt-100 pb-50">
+          <div class="pc:container mx-auto">
+              <div class="flex justify-center">
+                <div class="col text-center">
+                  <h3 class="font-bold text-h3">The tools you get with Impact</h3>
+                  <p>We add new tools and features regularly.</p>
+                </div>
+              </div>
+          </div>
+      </section>
+      <section class="tab pt-50">
+        <div class="pc:container mx-auto">
+          <ul class="tab-list flex justify-between py-5 px-50 mb-50 border border-solid border-menu-color rounded-xl shadow-md">
+            <li>
+              <a href="#tab1" class=" inline-block text-black p-4 active">
+                <i class="fa-regular fa-file mr-1"></i>Content Research</a>
+            </li>
+            <li>
+              <a href="#tab2" class="inline-block text-black p-4 "><i class="fa-solid fa-chart-line mr-1"></i>Rank Tracking</a>
+            </li>
+            <li>
+              <a href="#tab3" class="inline-block text-black p-4"><i class="fa-regular fa-bell mr-1"></i>Web Monitoring</a>
+            </li>
+            <li>
+              <a href="#tab4" class="inline-block text-black p-4"><i class="fa-solid fa-link mr-1"></i>BlackLink Research</a>
+            </li>
+          </ul>
+          <div class="tab-container pt-50 mb-100">
+            <div id="tab1"  class="tab active">
+              <div class="flex justify-between">
+                  <div class="col w-2/6">
+                    <h3 class=" text-h4 mb-7">Content Explorer</h3>
+                    <p class="text-black mb-5">Put any keyword into this tool to see which content has performed best in terms of social buzz, number of backlinks and organic search traffic.</p>
+                    <p class="text-black">Find all articles that mentioned your target keyword and use the "Highlight unlinked domains" feature to see which of these websites have never linked to you.</p>
+                    <a href="#" class=" text-theme-color font-medium mt-7 inline-block">
+                      <i class="fa-solid fa-up-right-from-square mr-2"></i>Content Explorer Tool</a>
+                  </div>
+                  <div class="col w-3/6">
+                    <div class="img-wrapper">
+                      <img src="/build/img/content-explore.jpg" alt="" class=" rounded-xl shadow-2xl">
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div id="tab2" class="tab">
+              <div class="flex justify-between">
+                  <div class="col w-2/6">
+                    <h3 class=" text-h4 mb-7">Rank Tracker</h3>
+                    <p class="text-black mb-5">Put any keyword into this tool to see which content has performed best in terms of social buzz, number of backlinks and organic search traffic.</p>
+                    <p class="text-black">Find all articles that mentioned your target keyword and use the "Highlight unlinked domains" feature to see which of these websites have never linked to you.</p>
+                    <a href="#" class=" text-theme-color font-medium mt-7 inline-block">
+                      <i class="fa-solid fa-up-right-from-square mr-2"></i>Content Explorer Tool</a>
+                  </div>
+                  <div class="col w-3/6">
+                    <div class="img-wrapper">
+                      <img src="/build/img/content-explore.jpg" alt="" class=" rounded-xl shadow-2xl">
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div id="tab3"  class="tab">
+              <div class="flex justify-between">
+                  <div class="col w-2/6">
+                    <h3 class=" text-h4 mb-7">Alerts</h3>
+                    <p class="text-black mb-5">Put any keyword into this tool to see which content has performed best in terms of social buzz, number of backlinks and organic search traffic.</p>
+                    <p class="text-black">Find all articles that mentioned your target keyword and use the "Highlight unlinked domains" feature to see which of these websites have never linked to you.</p>
+                    <a href="#" class=" text-theme-color font-medium mt-7 inline-block">
+                      <i class="fa-solid fa-up-right-from-square mr-2"></i>Content Explorer Tool</a>
+                  </div>
+                  <div class="col w-3/6">
+                    <div class="img-wrapper">
+                      <img src="/build/img/content-explore.jpg" alt="" class=" rounded-xl shadow-2xl">
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div id="tab4"  class="tab">
+              <div class="flex justify-between">
+                  <div class="col w-2/6">
+                    <h3 class=" text-h4 mb-7">Backlink data</h3>
+                    <p class="text-black mb-5">Put any keyword into this tool to see which content has performed best in terms of social buzz, number of backlinks and organic search traffic.</p>
+                    <p class="text-black">Find all articles that mentioned your target keyword and use the "Highlight unlinked domains" feature to see which of these websites have never linked to you.</p>
+                    <a href="#" class=" text-theme-color font-medium mt-7 inline-block">
+                      <i class="fa-solid fa-up-right-from-square mr-2"></i>Content Explorer Tool</a>
+                  </div>
+                  <div class="col w-3/6">
+                    <div class="img-wrapper">
+                      <img src="/build/img/content-explore.jpg" alt="" class=" rounded-xl shadow-2xl">
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+      <div class="divider pc:container mx-auto"></div>
+      <section class="logo py-50">
+        <div class="pc:container mx-auto">
+          <ul class="flex justify-center items-center">
+            <li>
+              <a href="" class="text-black text-big px-4"><i class="fa-brands fa-stripe"></i></a>
+            </li>
+            <li>
+              <a href="" class="text-black text-big px-4"><i class="fa-brands fa-digg"></i></a>
+            </li>
+            <li>
+              <a href="" class="text-black text-big px-4"><i class="fa-brands fa-fedex"></i></a>
+            </li>
+            <li>
+              <a href="" class="text-black text-big px-4"><i class="fa-brands fa-ember"></i></a>
+            </li>
+            <li>
+              <a href="" class="text-black text-big px-4"><i class="fa-brands fa-d-and-d-beyond"></i></a>
+            </li>
+            <li>
+              <a href="" class="text-black text-big px-4"><i class="fa-brands fa-angrycreative"></i></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class="divider pc:container mx-auto"></div>
+      <section class=" pt-100 pb-50">
+        <div class="pc:container mx-auto">
+            <div class="flex justify-center">
+              <div class="col text-center max-w-2xl">
+                <h3 class="font-bold text-h3 mb-7">Recommended by leading experts in marketing and SEO</h3>
+                <p class=" text-black text-normal">Our products are loved by users worldwide</p>
+              </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonial pt-50 pb-100">
+      <div class="pc:container mx-auto">
+          <div class="flex">
+            <div class="w-1/2 flex items-start mr-7">
+                <img src="/build/img/profile-picture-1.jpg"   alt="" class=" rounded-[50%]  w-48 mr-5">
+                <div class="card bg-card rounded-lg  text-black p-5 leading-6">
+                  <ul class="flex">
+                    <li class="text-star px-1"><i class="fa-solid fa-star"></i></li>
+                    <li class="text-star px-1"><i class="fa-solid fa-star"></i></li>
+                    <li class="text-star px-1"><i class="fa-solid fa-star"></i></li>
+                    <li class="text-star px-1"><i class="fa-solid fa-star"></i></li>
+                    <li class="text-star px-1"><i class="fa-solid fa-star"></i></li>
+                  </ul>
+                  <p class=" leading-8 mb-6">"We use Rocket mainly for its site explorer, and it’s immensely improved how we find link targets. We use it both for getting quick analysis of a site, as well as utilizing its extensive index when we want to dive deep."</p>
+                  <p class=" inline-block font-semibold text-black mr-4">- James Curran</p>
+                  <p class=" inline-block text-[12px]"> Designer Apple</p>
+                </div>
+            </div>
+            <div class="w-1/2 flex items-start ml-7 mt-50">
+              <img src="/build/img/profile-picture-4.jpg"   alt="" class=" rounded-[50%]  w-48 mr-5">
+              <div class="card bg-card rounded-lg  text-black p-5 leading-6">
+                <ul class="flex">
+                  <li class="text-star px-1"><i class="fa-solid fa-star"></i></li>
+                  <li class="text-star px-1"><i class="fa-solid fa-star"></i></li>
+                  <li class="text-star px-1"><i class="fa-solid fa-star"></i></li>
+                  <li class="text-star px-1"><i class="fa-solid fa-star"></i></li>
+                  <li class="text-star px-1"><i class="fa-solid fa-star"></i></li>
+                </ul>
+                <p class=" leading-8 mb-6">"We use Rocket mainly for its site explorer, and it’s immensely improved how we find link targets. We use it both for getting quick analysis of a site, as well as utilizing its extensive index when we want to dive deep."</p>
+                <p class=" inline-block font-semibold text-black mr-4">- Jose Evans </p>
+                <p class=" inline-block text-[12px]"> Designer Apple</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="w-1/2 flex items-start mr-7">
+                <img src="/build/img/profile-picture-2.jpg"   alt="" class=" rounded-[50%]  w-48 mr-5">
+                <div class="card bg-card rounded-lg  text-black p-5 leading-6">
+                  <ul class="flex">
+                    <li class="text-star px-1"><i class="fa-solid fa-star"></i></li>
+                    <li class="text-star px-1"><i class="fa-solid fa-star"></i></li>
+                    <li class="text-star px-1"><i class="fa-solid fa-star"></i></li>
+                    <li class="text-star px-1"><i class="fa-solid fa-star"></i></li>
+                    <li class="text-star px-1"><i class="fa-solid fa-star"></i></li>
+                  </ul>
+                  <p class=" leading-8 mb-6">"We use Rocket mainly for its site explorer, and it’s immensely improved how we find link targets. We use it both for getting quick analysis of a site, as well as utilizing its extensive index when we want to dive deep."</p>
+                  <p class=" inline-block font-semibold text-black mr-4">-  Richard Thomas</p>
+                  <p class=" inline-block text-[12px]"> Designer Apple</p>
+                </div>
+            </div>
+            <div class="w-1/2 flex items-start ml-7 mt-50">
+              <img src="/build/img/profile-picture-6.jpg"   alt="" class=" rounded-[50%]  w-48 mr-5">
+              <div class="card bg-card rounded-lg  text-black p-5 leading-6">
+                <ul class="flex">
+                  <li class="text-star px-1"><i class="fa-solid fa-star"></i></li>
+                  <li class="text-star px-1"><i class="fa-solid fa-star"></i></li>
+                  <li class="text-star px-1"><i class="fa-solid fa-star"></i></li>
+                  <li class="text-star px-1"><i class="fa-solid fa-star"></i></li>
+                  <li class="text-star px-1"><i class="fa-solid fa-star"></i></li>
+                </ul>
+                <p class=" leading-8 mb-6">"We use Rocket mainly for its site explorer, and it’s immensely improved how we find link targets. We use it both for getting quick analysis of a site, as well as utilizing its extensive index when we want to dive deep."</p>
+                <p class=" inline-block font-semibold text-black mr-4">- Charles Moody</p>
+                <p class=" inline-block text-[12px]"> Designer Apple</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex pt-100">
+              <div class="pc:container mx-auto text-center">
+                  <a href="#" class=" bg-theme-color inline-block py-2 px-6 rounded-lg font-medium text-white hover:bg-blue-hover"> 
+                    <i class="fa-solid fa-book-open mr-4"></i>See all stories</a>
+              </div>
+          </div>
+      </div>
+    </section>
+    <section class="rocket py-150 bg-card relative">
+        <div class="pc:container mx-auto">
+          <div class="flex justify-center">
+            <div class="w-2/4 text-center">
+              <h3 class="text-h4 font-semibold mb-8">Faster growth starts with Rocket</h3>
+              <p class=" text-black text-normal">Join over <strong>300,000+</strong> users</p>
+              <ul class="flex justify-center py-9">
+                <li class="px-3"><a href="#" class=" text-h3 text-black"><i class="fa-brands fa-mailchimp"></i></a></li>
+                <li class="px-3"><a href="#" class=" text-h3 text-black"><i class="fa-brands fa-cpanel"></i></a></li>
+                <li class="px-3"><a href="#" class=" text-h3 text-black"><i class="fa-brands fa-dhl"></i></a></li>
+                <li class="px-3"><a href="#" class=" text-h3 text-black"><i class="fa-brands fa-github-alt"></i></a></li>
+                <li class="px-3"><a href="#" class=" text-h3 text-black"><i class="fa-brands fa-aws"></i></a></li>
+                <li class="px-3"><a href="#" class=" text-h3 text-black"><i class="fa-brands fa-node"></i></a></li>
+              </ul>
+              <a href="#" class="btn py-2 px-5 text-white inline-block bg-red mr-5 rounded-lg hover:bg-hover">Start a 30 days trail</a>
+            </div>
+          </div>
+        </div>
+        
+    </section>
+    </main>
+    <footer class=" pt-150 pb-50 bg-theme-color relative overflow-hidden">
+      <div class="pattern-footer"></div>
+        <div class="footer  block">
+            <div class="pc:container mx-auto flex justify-between pb-100">
+                <div class="w-2/6 pr-4">
+                    <img src="/build/img/light.svg" alt="" class=" w-100">
+                    <p class=" my-4 text-white">Create, prototype, collaborate and turn your ideas into incredible products with the definitive platform for digital design.</p>
+                    <div class="languages relative inline-block">
+                        <a href="#" class=" text-white font-light text-small pb-2 inline-block active">
+                          <img src="/build/img/eng.svg" alt="" class=" w-4 inline-block mr-1">
+                          English <i class="fa-solid fa-chevron-down ml-2 text-[12px]"></i></a>
+                        <ul class="lang-list px-5 py-3 bg-white rounded-md absolute top-full w-[180px] hidden">
+                          <li class=" py-2">
+                            <a href="#" class="text-black font-light text-small">
+                              <img src="/build/img/german.svg" alt="" class=" w-4 inline-block mr-1">
+                              German</a>
+                          </li>
+                          <li class=" py-2">
+                            <a href="#" class="text-black font-light text-small">
+                              <img src="/build/img/spain.svg" alt="" class=" w-4 inline-block mr-1">
+                              Spanish</a>
+                          </li>
+                          <li class=" py-2">
+                            <a href="#" class="text-black font-light text-small">
+                              <img src="/build/img/french.svg" alt="" class=" w-4 inline-block mr-1">
+                              French</a>
+                          </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="w-1/6 pl-4">
+                    <div class="title text-white  py-2 inline-block font-semibold">Themesberg</div>
+                    <ul>
+                      <li><a href="#" class=" text-white  py-2 inline-block">Blog</a></li>
+                      <li><a href="#" class=" text-white  py-2 inline-block">Themes</a></li>
+                      <li><a href="#" class=" text-white  py-2 inline-block">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="w-1/6 pl-4">
+                  <div class="title text-white  py-2 inline-block font-semibold">Creative Tim</div>
+                  <ul>
+                    <li><a href="#" class=" text-white  py-2 inline-block">Blog</a></li>
+                    <li><a href="#" class=" text-white  py-2 inline-block">Products</a></li>
+                    <li><a href="#" class=" text-white  py-2 inline-block">Support</a></li>
+                    <li><a href="#" class=" text-white  py-2 inline-block">License</a></li>
+                  </ul>
+                </div>
+                <div class="w-2/6 pl-4">
+                  <div class="title text-white  py-2 inline-block font-semibold">Subscribe</div>
+                  <p class=" py-3 text-white font-light text-small">The latest Rocket news, articles, and resources, sent straight to your inbox every month.</p>
+                  <div class="flex items-center">
+                    <div class="col mr-4"><input type="emial" placeholder="Email address" class="py-3 px-5 text-white rounded-xl"></div>
+                    <div class="col"><button class=" bg-red py-2 px-5 text-white rounded-md hover:bg-hover">Subscribe</button></div>
+                  </div>
+                  <p class=" pt-3 text-white font-light text-small">We’ll never share your details. See our <a href="#" class=" underline font-medium"> Privacy Policy </a></p>
+                </div>  
+        </div>
+        <div class="copy-right block">
+            <div class="pc:container mx-auto text-center">
+              <p class=" text-white font-medium">Copyright © Themesberg & Creative Tim 2022. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/build/js/main.js"></script>
+  </body>
+</html>
